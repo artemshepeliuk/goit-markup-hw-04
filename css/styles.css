@@ -1,0 +1,293 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #fff;
+    line-height: 1.5;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.visually-hidden:not(:focus):not(:active) {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+/* section padding */
+.solutions,
+.team,
+.portfolio {
+    padding: 120px 0;
+}
+
+
+/* h2 styles */
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+    text-transform: capitalize;
+    margin-bottom: 72px;
+}
+
+/* h3 styles */
+.subtitle {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-bottom: 8px;
+}
+
+/* p styles */
+.description {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/* p max-width */
+.description-limited {
+    max-width: 264px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* #region Header */
+.header {
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-logo {
+    margin-right: 76px;
+}
+
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 0.03em;
+    line-height: 1.17;
+    color: #4d5ae5;
+}
+
+.logo-dark {
+    color: #2e2f42;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav-list {
+    display: flex;
+    gap: 40px;
+}
+
+.header-padding {
+    display: block;
+    padding: 24px 0;
+}
+
+.nav-link {
+    color: #2e2f42;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+}
+
+.address {
+    font-style: normal;
+    display: flex;
+    align-items: center;
+}
+
+.address-list {
+    display: flex;
+    gap: 40px;
+}
+
+.address-link {
+    color: #434455;
+    letter-spacing: 0.02em;
+}
+
+.nav-link:hover,
+.address-link:hover {
+    color: #404bbf;
+}
+
+.nav-link:focus,
+.address-link:focus {
+    color: #404bbf;
+}
+
+/* #endregion */
+
+
+/* #region Hero */
+.hero {
+    background-color: #2e2f42;
+    padding: 188px 0;
+}
+
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #fff;
+    max-width: 496px;
+    margin-bottom: 48px;
+}
+
+.hero .btn {
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    background-color: #4d5ae5;
+    color: #fff;
+    cursor: pointer;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    padding: 16px 32px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+.hero .btn:hover,
+.hero .btn:focus {
+    background-color: #404bbf;
+}
+
+/* #endregion */
+
+
+/* #region Solutions */
+.solutions-list {
+    display: flex;
+    gap: 24px;
+}
+
+.solutions-item {
+    width: calc((100% - 72px) / 4);
+}
+
+/* #endregion */
+
+
+/* #region Our Team */
+.team {
+    background-color: #f4f4fd;
+}
+
+.team-cards {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.team-card {
+    background-color: #fff;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.team-content {
+    padding: 32px 0;
+}
+
+.text-align {
+    text-align: center;
+}
+
+
+/* #endregion */
+
+
+/* #region Our Portfolio */
+.portfolio-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 48px 24px;
+}
+
+.portfolio-content {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
+
+/* #endregion */
+
+
+/* #region Footer */
+.footer {
+    background-color: #2e2f42;
+    padding: 100px 0;
+}
+
+.light {
+    color: #f4f4fd;
+}
+
+.footer-logo {
+    display: inline-block;
+    margin-bottom: 16px;
+}
+
+/* #endregion */
