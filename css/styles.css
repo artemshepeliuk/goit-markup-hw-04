@@ -129,9 +129,12 @@ ul {
     background-color: var(--color-pressed);
 }
 
+.fill,
 .fill use {
     fill: var(--color-light);
 }
+
+
 
 /* #endregion */
 
@@ -389,15 +392,19 @@ svg use {
     margin-right: 120px;
 }
 
+.social-media .description {
+    font-weight: 500;
+    color: var(--color-white);
+}
+
 .social-links-footer {
     gap: 16px;
 }
 
 .social-links-footer .social-icon:hover,
-.social-icon:focus {
+.social-links-footer .social-icon:focus {
     background-color: var(--color-success);
 }
-
 
 .light {
     color: var(--color-light);
