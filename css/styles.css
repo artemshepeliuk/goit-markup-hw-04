@@ -252,6 +252,7 @@ ul {
     background-color: var(--color-dark);
     padding: 188px 0;
     max-width: 1440px;
+    margin: 0 auto;
 }
 
 .hero-container {
@@ -354,6 +355,10 @@ svg use {
     text-align: center;
 }
 
+.margin-bottom-small {
+    margin-bottom: 8px;
+}
+
 /* #endregion */
 
 
@@ -446,7 +451,7 @@ svg use {
     color: var(--color-light);
 }
 
-.backing {
+.margin-bottom-medium {
     display: inline-block;
     margin-bottom: 16px;
 }
